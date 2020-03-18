@@ -35,3 +35,12 @@ Most packet switches use store-and-forward transmission at the inputs to the lin
 * Queuing Delays and Packet Loss
 Each packet switch has multiple links attached to it. For each attached link, the packet switch has an output buffer (also called an output queue), which stores packets that the router is about to send into that link.
 
+### Forwarding Tables and Routing Protocols
+
+  In the Internet, every end system has an address called an IP address. When asource end system wants to send a packet to a 
+destination end system, the source includes the destination’s IP address in the packet’s header.
+  When a packet arrives at a router in the network, the router examines a portion of the packet’s destination address and forwards
+the packet to an adjacent router.
+  each router has a forwarding table that maps destination addresses
+  When a packet arrives at a router, the router examines the address and searches its forwarding table, using this destination
+address, to find the appropriate outbound link.
