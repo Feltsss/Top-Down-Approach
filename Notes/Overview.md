@@ -28,3 +28,10 @@ the actions taken on the transmission and/or receipt of a message or other event
 * To send a message from a source end system to a destination end system,the source breaks long messages into smaller 
 chunks of data known as packets.Between source and destination, each packet travels through communication links and packet 
 switches (for which there are two predominant types, routers and linklayer
+
+* Store-and-Forward Transmission
+Most packet switches use store-and-forward transmission at the inputs to the links.
+
+* Queuing Delays and Packet Loss
+Each packet switch has multiple links attached to it. For each attached link, the packet switch has an output buffer (also called an output queue), which stores packets that the router is about to send into that link.
+
