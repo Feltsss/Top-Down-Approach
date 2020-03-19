@@ -44,3 +44,10 @@ the packet to an adjacent router.
   each router has a forwarding table that maps destination addresses
   When a packet arrives at a router, the router examines the address and searches its forwarding table, using this destination
 address, to find the appropriate outbound link.
+
+* Routing protocol
+  Internet has a number of special routing protocols that are used to automatically set the forwarding tables. A routing protocol may, for example,determine the shortest path from each router to each destination and use the shortest path results to configure the forwarding tables in the routers.
+  
+* Circuit Switching  
+  
+  
